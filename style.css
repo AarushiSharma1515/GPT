@@ -1,0 +1,18 @@
+body {
+   background-color: rgb(232, 209, 209);
+   color:black;
+   border: none;
+   height:36px;
+   border-radius: 2px;
+}
+h1 {
+color: rgb(46, 25, 11);
+text-align: center;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+h3{
+    background-color:crimson;}
+/* css is used for styling the layout */
