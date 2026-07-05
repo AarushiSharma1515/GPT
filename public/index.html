@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>Assistant</h1>
+      <p>Powered by Gemini 2.5</p>
+    </header>
+
+    <main id="chat-container">
+      <div class="welcome-message">
+        <h2>How can I help you today?</h2>
+      </div>
+      <!-- Chat messages will be injected here by app.js -->
+    </main>
+
+    <div class="input-area">
+      <form id="chat-form">
+        <input type="text" id="message-input" placeholder="Type your message..." autocomplete="off" required>
+        <button type="submit" id="send-btn">Send</button>
+      </form>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
